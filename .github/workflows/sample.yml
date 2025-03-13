@@ -1,0 +1,14 @@
+name: "HelloWorldPipeline"
+
+on:
+  push:
+    branches:
+      - master
+      - production
+
+jobs:
+  print_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Display Greeting"
+        run: echo "Hello, World!"
