@@ -12,4 +12,4 @@ jobs:
     
     steps:  # Steps to be executed in the job
       - name: "Running on master/test push"  # Step 1
-        run: echo "Running on master/test push"
+        run: echo "Running on master"
